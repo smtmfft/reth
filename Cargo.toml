@@ -273,7 +273,7 @@ enr = { version = "0.10", default-features = false, features = ["k256"] }
 
 # for eip-4844
 #c-kzg = "0.4.2"
-c-kzg = {git = "https://github.com/smtmfft/c-kzg-4844", branch = "remove-file-io" }
+c-kzg = {git = "https://github.com/smtmfft/c-kzg-4844", branch = "risc0/remove-file-io" }
 
 # config
 confy = "0.6"
